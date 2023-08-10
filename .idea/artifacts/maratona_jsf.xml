@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="maratona-jsf">
+    <output-path>$PROJECT_DIR$/out/artifacts/maratona_jsf.war</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="maratona_jsf" />
+          <element id="jpa-descriptors" facet="maratona_jsf/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.2.13" />
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:6.0" />
+          <element id="library" level="project" name="Maven: org.omnifaces:omnifaces:2.6.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.5" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="maratona_jsf/web/Web" />
+    </root>
+  </artifact>
+</component>
